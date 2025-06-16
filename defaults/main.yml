@@ -82,8 +82,9 @@ netplan_configuration:
 
 netplan_remove_existing: false
 
+netplan_backup_existing: false
+
 netplan_packages:
-  - nplan
   - netplan.io
 
 netplan_pri_domain: example.org
